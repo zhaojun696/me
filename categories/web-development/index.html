@@ -3,7 +3,7 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
-    <title>赵军的个人简介 | 赵军的工作频道</title>
+    <title>Web Development | 赵军的工作频道</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,8 +42,16 @@
             <ul class="menu menu-horizontal px-1">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about/me">关于我</a></li>
-                <li><a href="/posts">作品</a></li>
-                <li><a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">店铺</a></li>
+                <li><a href="/posts">动态</a></li>
+                <li>
+                    <details>
+                        <summary> 作品 </summary>
+                        <ul class="bg-base-100 rounded-t-none p-2">
+                            <li><a>Link 1</a></li>
+                            <li><a>Link 2</a></li>
+                        </ul>
+                    </details>
+                </li>
             </ul>
         </div>
     </div>
@@ -52,10 +60,16 @@
 
 <div class="md:hidden bg-base-100 shadow-lg" id="mobile-menu">
     <ul class="menu menu-horizontal px-1">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/me">关于我</a></li>
-        <li><a href="/posts">作品</a></li>
-        <li><a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">店铺</a></li>
+        <li><a>Link</a></li>
+        <li>
+            <details>
+                <summary>Parent</summary>
+                <ul class="bg-base-100 rounded-t-none p-2">
+                    <li><a>Link 1</a></li>
+                    <li><a>Link 2</a></li>
+                </ul>
+            </details>
+        </li>
     </ul>
 </div>
 
@@ -76,61 +90,50 @@
 
     
 
-<link href="/css/markdown.css" rel="stylesheet" type="text/css" />
 
-<article style="margin: 0 auto;" class="p-0 w-full md:w-1/2 md:p-7">
-    <div class="mark"><h3 id="四川师范大学">四川师范大学</h3>
-<p><em>2013.09 - 2017.06</em></p>
-<blockquote>
-<p><strong>姓名</strong>: 赵军</p>
-</blockquote>
-<blockquote>
-<p><strong>邮箱</strong>: <a href="mailto:2732810281@qq.com">2732810281@qq.com</a></p>
-</blockquote>
-<blockquote>
-<p><strong>QQ</strong>: 2732810281</p>
-</blockquote>
-<blockquote>
-<p><strong>地址</strong>: 四川省成都市金牛区</p>
-</blockquote>
-<hr>
-<h3 id="在线教育平台">在线教育平台</h3>
-<p><em>2023.03 - 2023.08</em></p>
-<ul>
-<li>技术栈：React、Node.js、MongoDB</li>
-<li>实现用户注册、登录、课程管理等功能模块。</li>
-<li>使用 JWT 实现用户认证，确保系统安全性。</li>
-<li>项目地址: <a href="https://github.com/zhangsan/online-edu">https://github.com/zhangsan/online-edu</a></li>
-</ul>
-<h3 id="个人博客系统">个人博客系统</h3>
-<p><em>2022.10 - 2023.02</em></p>
-<ul>
-<li>技术栈：Hugo、Markdown、GitHub Pages</li>
-<li>使用 Hugo 静态网站生成器搭建博客，支持 Markdown 写作。</li>
-<li>部署到 GitHub Pages，实现自动化构建和发布。</li>
-<li>博客地址: <a href="https://zhangsan.com">https://zhangsan.com</a></li>
-</ul>
-<hr>
-<h3 id="技能">技能</h3>
-<ul>
-<li><strong>编程语言</strong>: Go、Python、JavaScript</li>
-<li><strong>前端技术</strong>: React、HTML、CSS</li>
-<li><strong>后端技术</strong>: Node.js、MySQL、MongoDB</li>
-<li><strong>工具</strong>: Git、Docker、Linux</li>
-<li><strong>其他</strong>: 敏捷开发、单元测试、RESTful API 设计</li>
-</ul>
-<hr>
-<p>感谢您花时间阅读我的简历！如果您有任何问题或合作机会，欢迎随时联系我！</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
-</span></span><span style="display:flex;"><span>pd<span style="color:#f92672">.</span>DataFrame()
-</span></span></code></pre></div></div>
 
-    <div style="margin-bottom: 2rem;" >
-        <time datetime="2025-01-12" class="bg-gray-100 p-2 mt-2 text-success "  >2025-01-12</time>
+<div class="hero bg-base-200 max-h-screen">
+    <div class="hero-content text-center">
+        <div class="max-w-md">
+            <h1 class="text-5xl font-bold">归档</h1>
+            <p class="py-6">
+                归档页面
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
     </div>
-    
+</div>
 
-</article>
+
+
+<link rel="stylesheet" href="/css/page.css">
+
+<div class="container mx-auto px-4 py-16">
+
+    <div class="lg:col-span-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+         
+                
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure>
+                <img
+                src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                alt="Movie" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">First_post</h2>
+                <p><p>First_post的文章内容</p></p>
+                <div class="card-actions justify-end">
+                <a href="/posts/first/"><button class="btn btn-primary">Watch</button></a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
 
 
 

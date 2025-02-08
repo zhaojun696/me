@@ -42,16 +42,8 @@
             <ul class="menu menu-horizontal px-1">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about/me">关于我</a></li>
-                <li><a href="/posts">动态</a></li>
-                <li>
-                    <details>
-                        <summary> 作品 </summary>
-                        <ul class="bg-base-100 rounded-t-none p-2">
-                            <li><a>Link 1</a></li>
-                            <li><a>Link 2</a></li>
-                        </ul>
-                    </details>
-                </li>
+                <li><a href="/posts">作品</a></li>
+                <li><a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">店铺</a></li>
             </ul>
         </div>
     </div>
@@ -60,16 +52,10 @@
 
 <div class="md:hidden bg-base-100 shadow-lg" id="mobile-menu">
     <ul class="menu menu-horizontal px-1">
-        <li><a>Link</a></li>
-        <li>
-            <details>
-                <summary>Parent</summary>
-                <ul class="bg-base-100 rounded-t-none p-2">
-                    <li><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
-                </ul>
-            </details>
-        </li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/me">关于我</a></li>
+        <li><a href="/posts">作品</a></li>
+        <li><a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">店铺</a></li>
     </ul>
 </div>
 
@@ -89,74 +75,56 @@
     
 
     
-<article>
-    <h1>First_post</h1>
-    <div><p>First_post的文章内容</p>
+
+
+<link href="/css/markdown.css" rel="stylesheet" type="text/css" />
+
+<article style="margin: 0 auto;" class="p-0 w-full md:w-1/2 md:p-7">
+    <h1 style="font-size: 2rem;margin:0.5rem 0;width:100%;text-align: center;">First_post</h1>
+
+    
+
+    <div class="mark"><p>First_post的文章内容</p>
 </div>
-    <div>
-        2025-01-12 12:27:18 &#43;0800 CST
+
+    
+    
+    <div >
+        
     </div>
-    <div>
-        默认值
+
+    <div style="margin-top: 1rem;">
+        
+        <a href='/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99'>
+            <button class="btn">静态网站</button>
+        </a>
+        
+        <a href='/tags/%E6%95%99%E7%A8%8B'>
+            <button class="btn">教程</button>
+        </a>
+        
     </div>
+    
+
+    <nav style="display: flex;justify-content: space-between;margin-top: 2rem;">
+        
+        <a class="link link-accent" href="http://localhost:1313/404.html">上一篇: 404 - Page Not Found</a>
+        
+        
+        
+        <a class="link link-success" href="http://localhost:1313/about/me/">下一篇: 赵军的个人简介</a>
+        
+    </nav>
 </article>
 
-<style>
-     
-    .tags ul {
-        list-style: none;
-        padding: 0;
-    }
 
-    .tags li {
-        margin: 5px 0;
-    }
 
-    .tags a {
-        text-decoration: none;
-        color: #007bff;
-    }
 
-    .tags a:hover {
-        text-decoration: underline;
-    }
 
-     
-    .post-tags {
-        margin-top: 20px;
-    }
 
-    .post-tags a {
-        display: inline-block;
-        margin-right: 10px;
-        padding: 5px 10px;
-        background-color: #f0f0f0;
-        border-radius: 3px;
-        text-decoration: none;
-        color: #333;
-    }
 
-    .post-tags a:hover {
-        background-color: #e0e0e0;
-    }
-</style>
-<div class="post-tags">
-    
-    <a href='/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99'>静态网站</a>
-    
-    <a href='/tags/%E6%95%99%E7%A8%8B'>教程</a>
-    
-</div>
 
-<nav>
-    
-    <a href="http://localhost:1313/404.html">上一篇: 404 - Page Not Found</a>
-    
 
-    
-    <a href="http://localhost:1313/about/me/">下一篇: 赵军的个人简介</a>
-    
-</nav>
 
 
 

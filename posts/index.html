@@ -42,16 +42,8 @@
             <ul class="menu menu-horizontal px-1">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about/me">关于我</a></li>
-                <li><a href="/posts">动态</a></li>
-                <li>
-                    <details>
-                        <summary> 作品 </summary>
-                        <ul class="bg-base-100 rounded-t-none p-2">
-                            <li><a>Link 1</a></li>
-                            <li><a>Link 2</a></li>
-                        </ul>
-                    </details>
-                </li>
+                <li><a href="/posts">作品</a></li>
+                <li><a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">店铺</a></li>
             </ul>
         </div>
     </div>
@@ -60,16 +52,10 @@
 
 <div class="md:hidden bg-base-100 shadow-lg" id="mobile-menu">
     <ul class="menu menu-horizontal px-1">
-        <li><a>Link</a></li>
-        <li>
-            <details>
-                <summary>Parent</summary>
-                <ul class="bg-base-100 rounded-t-none p-2">
-                    <li><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
-                </ul>
-            </details>
-        </li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/me">关于我</a></li>
+        <li><a href="/posts">作品</a></li>
+        <li><a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">店铺</a></li>
     </ul>
 </div>
 
@@ -91,21 +77,52 @@
     
 
 
-<h1>Hello，Coder !</h1>
-<h1><p>从代码到产品，记录我的技术旅程。</p>
+
+<div class="hero bg-base-200 max-h-screen">
+    <div class="hero-content text-center">
+        <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Hello，Coder !</h1>
+            <p class="py-6">
+                <p>从代码到产品，记录我的技术旅程。</p>
 <p>专注于 [投资/技术/产品] 的深度思考与实践。</p>
-</h1>
-111
+
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
+    </div>
+</div>
+
 
 
 <link rel="stylesheet" href="/css/page.css">
 
- 
+<div class="container mx-auto px-4 py-16">
 
-<article>
-    <h2><a href="/posts/first/">First_post</a></h2>
-    <p><p>First_post的文章内容</p></p>
-</article>
+    <div class="lg:col-span-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+         
+                
+        <div class="card card-side bg-base-100 shadow-xl">
+            <figure>
+                <img
+                src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                alt="Movie" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">First_post</h2>
+                <p><p>First_post的文章内容</p></p>
+                <div class="card-actions justify-end">
+                <a href="/posts/first/"><button class="btn btn-primary">Watch</button></a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+
 
 
 
